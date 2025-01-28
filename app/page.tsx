@@ -1,5 +1,6 @@
 import { SupabaseTest } from './components/SupabaseTest'
 import { WalletLogin } from './components/WalletLogin'
+import ItemsList from './components/ItemsList'
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
         <SupabaseTest />
       </div>
 
-      {/* Keep your existing components below */}
+      <div className="mb-8">
+        <ItemsList />
+      </div>
     </main>
   )
 } 
